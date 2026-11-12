@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ff6f91">
+<title>Happy Birthday 🎂</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="intro">
+    <h1>Untuk Perempuan tercinta<p> 
+    </p>ada kejutan untukmu...</h1>
+    <p>Ketuk tombol di bawah ya 💖</p>
+    <button class="btn" id="openBtn">🎁 Buka Kejutan</button>
+</div>
+<header>
+  <div class="tag">Spesial untuk kamu</div>
+  <h1>Happy Birthday<p>
+
+  </p><span>Nasywa Nur Fauziah Arroyan</span> 🎂🎂🎂</h1>
+  <p>15 November 2026 • Usia 21 Tahun</p>
+  <div class="countdown" id="countdown"></div>
+</header>
+
+<nav>
+  <button class="active" data-page="about">💖 Tentang Kamu</button>
+  <button data-page="quotes">💌 Ucapan</button>
+  <button data-page="gallery">📸 Galeri</button>
+</nav>
+
+<main>
+
+  <!-- 1. TENTANG DIA -->
+  <section id="about" class="page active">
+    <h2>Tentang Kamu</h2>
+    <p class="sub">Perempuan hebat yang aku sayangi,cintai,banggakan apapun itu ✨</p>
+
+    <div class="about-grid">
+      <div class="card">
+        <h3>👩‍👧‍👦 Anak Pertama</h3>
+        <p>Kamu adalah kakak pertama dari tiga bersaudara, dengan satu adik perempuan dan satu adik laki-laki. Kamu belajar menjadi contoh, pelindung, dan tempat pulang bagi mereka.</p>
+      </div>
+
+      <div class="card">
+        <h3>🩺 Calon Perawat Hebat</h3>
+        <p>Kamu sekarang menempuh pendidikan keperawatan. Hatimu yang lembut dan peduli cocok sekali untuk merawat banyak orang kelak.</p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Jiwa Seorang Guru</h3>
+        <p>Dengan latar belakang sebagai guru, kamu sabar, pandai menjelaskan, dan selalu ingin berbagi ilmu.</p>
+      </div>
+
+      <div class="card">
+        <h3>🍳 Masakan Paling Enak</h3>
+        <p>Masakanmu selalu terasa seperti rumah. Setiap suapannya dibuat dengan cinta.</p>
+      </div>
+
+      <div class="card full">
+        <h3>🌟 Kepribadianmu</h3>
+        <div class="chips">
+          <span class="chip">Percaya diri</span>
+          <span class="chip">Berkomitmen</span>
+          <span class="chip">Pintar</span>
+          <span class="chip">Berprestasi</span>
+          <span class="chip">Sedikit emosian 😤</span>
+          <span class="chip">Gampang nangis 🥺</span>
+          <span class="chip">Manja banget 🥰</span>
+        </div>
+        <p class="note">Dan justru semua itu yang bikin kamu jadi kamu. Aku sayang semuanya, termasuk saat kamu ngambek dan manja. Hehehe 💗</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. UCAPAN & QUOTES -->
+  <section id="quotes" class="page">
+    <h2>Ucapan &amp; Quotes</h2>
+    <p class="sub">Dari hatiku, untuk kamu 💌</p>
+
+    <div class="quote-list">
+      <div class="quote">“Bertambah usia berarti bertambah alasan bagiku untuk bersyukur memilikimu.”</div>
+      <div class="quote">“Kamu bukan hanya bagian dari hariku, kamu alasan hariku terasa indah.”</div>
+      <div class="quote">“Di usia 21 ini, semoga semua mimpimu pelan-pelan jadi nyata.”</div>
+      <div class="quote">“Kalau dunia terasa berat, ingat ada aku yang selalu di sisimu.”</div>
+      <div class="quote">“Terima kasih sudah bertahan, berjuang, dan tetap menjadi dirimu yang luar biasa.”</div>
+      <div class="quote">“Manjamu, tangismu, tawamu, semuanya favoritku.”</div>
+    </div>
+
+    <div class="card letter">
+      <h3>Selamat Ulang Tahun, Sayang 🎉</h3>
+      <p>Di hari spesialmu ini, aku mau bilang terima kasih sudah hadir di hidupku.</p>
+      <p>Semoga di usia 21 kamu makin sehat, makin bahagia, lancar kuliah keperawatannya, dan makin dekat dengan semua cita-citamu.</p>
+      <p>Aku bangga sama kamu. Selalu. 💖</p>
+      <button class="btn" id="surpriseBtn">🎁 Klik untuk kejutan</button>
+      <div id="randomQuote"></div>
+    </div>
+  </section>
+
+  <!-- 3. GALERI -->
+  <section id="gallery" class="page">
+    <h2>Galeri Kenangan</h2>
+    <p class="sub">Ketuk foto untuk memperbesar 📸</p>
+
+    <div class="gallery">
+      <div class="photo">
+        <div class="img"><img src="awarank2.jpg" alt="Foto 1" data-fallback="🌸"></div>
+        <div class="cap"><h4>Si Percaya Diri</h4><p>Senyummu bikin semua orang yakin kamu bisa melakukan apa saja.</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="awaperawat.jpg" alt="Foto 2" data-fallback="👩‍⚕️"></div>
+        <div class="cap"><h4>Calon Perawat</h4><p>Pekerja keras yang tulus ingin menolong sesama.DAN SEMANGATT ONE STEP CLOSSER nyusun KTI hehehehe</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="awachef.jpg" alt="Foto 3" data-fallback="🍳"></div>
+        <div class="cap"><h4>Chef Favoritku</h4><p>Masakanmu selalu jadi yang terenak, kecuali jangan pare sama jangan pedes banget yaak hehehe</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="foto4.jpg" alt="Foto 4" data-fallback="📚"></div>
+        <div class="cap"><h4>Sang Guru</h4><p>Sabar, pintar, dan inspiratif.</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="awamanja.jpg" alt="Foto 5" data-fallback="🥺"></div>
+        <div class="cap"><h4>Si Manja</h4><p>Kadang cengeng ngambek, tapi selalu menggemaskan.</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="foto6.jpg" alt="Foto 6" data-fallback="👨‍👩‍👧‍👦"></div>
+        <div class="cap"><h4>Kakak Tersayang</h4><p>Anak pertama yang jadi panutan adik-adiknya.</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="jajanbareng.jpg" alt="Foto 7" data-fallback="👨‍👩‍👧‍👦"></div>
+        <div class="cap"><h4>SUKA JAJAN</h4><p>Suka jajan apapun, kalo banyak jajanan sampe bingung mau jajan yang mana HAHAHAHA. BTW ini belum semua foto nya yaaa gesss, kebanyakan ga muat nantiii</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="awamatcha.jpg" alt="Foto 8" data-fallback="👨‍👩‍👧‍👦"></div>
+        <div class="cap"><h4>I LOVE MATCHA</h4><p>Katanya love sama cowo nya tapi harus matcha dulu hmm dehhh</p></div>
+      </div>
+      <div class="photo">
+        <div class="img"><img src="awaloveforever.jpg" alt="Foto 9" data-fallback="👨‍👩‍👧‍👦"></div>
+        <div class="cap"><h4>I LOVE YOU BABYY :33</h4><p>I Love You, Today, Tomorrow, Forever</p></div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<div id="lightbox"><img alt=""></div>
+
+<footer>Dibuat dengan 💗 oleh Seorang Laki-Laki yang mencintai kamu all of univerese</footer>
+
+<audio id="bgm" src="lagu.mp3" loop preload="auto"></audio>
+<button id="musicBtn" aria-label=""Putar atau jeda musik">⏸️</button>
+<script src="script.js"></script>
+</body>
+</html>
